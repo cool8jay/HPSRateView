@@ -13,8 +13,8 @@
 		8F851CC920EA478500D117B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F851CC820EA478500D117B0 /* Assets.xcassets */; };
 		8F851CCC20EA478500D117B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F851CCA20EA478500D117B0 /* Main.storyboard */; };
 		8F851CD720EA47A600D117B0 /* HPSRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F851CD420EA47A600D117B0 /* HPSRateView.m */; };
-		8F851CD820EA47A600D117B0 /* star-off.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8F851CD520EA47A600D117B0 /* star-off.pdf */; };
-		8F851CD920EA47A600D117B0 /* star-on.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8F851CD620EA47A600D117B0 /* star-on.pdf */; };
+		8FB5704A20F5CF2300C0BD1A /* HPSRateTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5704920F5CF2300C0BD1A /* HPSRateTableCellView.m */; };
+		8FB5704E20F5F92100C0BD1A /* HPSRateTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB5704D20F5F92100C0BD1A /* HPSRateTableCellView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,9 @@
 		8F851CCD20EA478500D117B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F851CD320EA47A600D117B0 /* HPSRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPSRateView.h; sourceTree = "<group>"; };
 		8F851CD420EA47A600D117B0 /* HPSRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPSRateView.m; sourceTree = "<group>"; };
-		8F851CD520EA47A600D117B0 /* star-off.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "star-off.pdf"; sourceTree = "<group>"; };
-		8F851CD620EA47A600D117B0 /* star-on.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "star-on.pdf"; sourceTree = "<group>"; };
+		8FB5704820F5CF2300C0BD1A /* HPSRateTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPSRateTableCellView.h; sourceTree = "<group>"; };
+		8FB5704920F5CF2300C0BD1A /* HPSRateTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPSRateTableCellView.m; sourceTree = "<group>"; };
+		8FB5704D20F5F92100C0BD1A /* HPSRateTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPSRateTableCellView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +70,9 @@
 				8F851CC620EA478500D117B0 /* ViewController.m */,
 				8F851CD320EA47A600D117B0 /* HPSRateView.h */,
 				8F851CD420EA47A600D117B0 /* HPSRateView.m */,
-				8F851CD520EA47A600D117B0 /* star-off.pdf */,
-				8F851CD620EA47A600D117B0 /* star-on.pdf */,
+				8FB5704820F5CF2300C0BD1A /* HPSRateTableCellView.h */,
+				8FB5704920F5CF2300C0BD1A /* HPSRateTableCellView.m */,
+				8FB5704D20F5F92100C0BD1A /* HPSRateTableCellView.xib */,
 				8F851CC820EA478500D117B0 /* Assets.xcassets */,
 				8F851CCA20EA478500D117B0 /* Main.storyboard */,
 				8F851CCD20EA478500D117B0 /* Info.plist */,
@@ -145,10 +147,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F851CD820EA47A600D117B0 /* star-off.pdf in Resources */,
 				8F851CC920EA478500D117B0 /* Assets.xcassets in Resources */,
 				8F851CCC20EA478500D117B0 /* Main.storyboard in Resources */,
-				8F851CD920EA47A600D117B0 /* star-on.pdf in Resources */,
+				8FB5704E20F5F92100C0BD1A /* HPSRateTableCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +162,7 @@
 			files = (
 				8F851CC720EA478500D117B0 /* ViewController.m in Sources */,
 				8F851CC420EA478500D117B0 /* main.m in Sources */,
+				8FB5704A20F5CF2300C0BD1A /* HPSRateTableCellView.m in Sources */,
 				8F851CD720EA47A600D117B0 /* HPSRateView.m in Sources */,
 				8F851CC120EA478500D117B0 /* AppDelegate.m in Sources */,
 			);
@@ -312,6 +314,7 @@
 				8F851CD220EA478500D117B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
