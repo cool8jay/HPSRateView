@@ -1,6 +1,6 @@
-# README
+# HPSRateView
 
-A rate view for Mac, as iTunes's songs rate.
+A rate view for Mac, as iTunes's song's rate.
 
 <img width="592" alt="rate 1" src="https://user-images.githubusercontent.com/55504/42574150-89957970-8550-11e8-9f5d-2ea39ba6811d.png">
 
